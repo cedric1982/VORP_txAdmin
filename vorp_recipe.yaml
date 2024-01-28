@@ -10,7 +10,7 @@ variables:
 tasks:
 # Recipe Specific server.cfg files
   - action: download_github
-    src: https://github.com/VORPCORE/VORP_txAdmin
+    src: https://github.com/cedric1982/VORP_txAdmin
     ref: main
     dest: ./temp/vorp_txAdminRecipe
   
@@ -32,7 +32,7 @@ tasks:
 
 # Download Pre-Made Files
   - action: download_github
-    src: https://github.com/VORPCORE/vorp_pre-made
+    src: https://github.com/cedric1982/vorp_pre-made
     ref: main
     dest: ./temp/premade
   
